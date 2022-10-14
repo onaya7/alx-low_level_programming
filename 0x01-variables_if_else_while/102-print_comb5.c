@@ -6,42 +6,42 @@
   */
 int main(void)
 {
-	int i, j, k, l;
+	int c, i, k, j;
 
-	i = 0;
-	while (i <= 9)
+	for (c = 48; c <= 57; c++)
 	{
-		j = 0;
-		while (j <= 9)
+		for (i = 48; i <= 57; i++)
 		{
-			k = 0;
-			while (k <= 9)
+			for (k = 48; k <= 57; k++)
 			{
-				l = 0;
-				while (l <= 9)
+				for (j = 48; j <= 57; j++)
 				{
-					if (k != 0 && l != 0)
+					if (((k + j) > (c + i) &&  k >= c) || c < k)
 					{
-						putchar(i + '0');
-						putchar(j + '0');
+						putchar(c);
+						putchar(i);
 						putchar(' ');
-						putchar(k + '0');
-						putchar(l + '0');
-					}
-					if (1 == 1)
+						putchar(k);
+						putchar(j);
+	
+
+					if (c + i + k + j == 227 && c == 57)
 					{
-						putchar(',');
-						putchar(' ');
+					break;
 					}
-					l++;
+					else	
+					{
+					putchar(',');
+					putchar(' ');
+					}
+					}
 				}
-				k++;
-			}
-			j++;
-		}
-		i++;
+			}	
+		}	
 	}
+
 	putchar('\n');
+
 	return (0);
 }
 
