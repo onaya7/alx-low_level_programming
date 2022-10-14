@@ -20,13 +20,13 @@ int main(void)
 				l = 0;
 				while (l <= 9)
 				{
-					if (k != 0 && 1 != 0)
+					if (k != 0 && l != 0)
 					{
-						 putchar(i + '0');
-						 putchar(j + '0');
-						 putchar(' ');
-						 putchar(k + '0');
-						 putchar(l + '0');
+						putchar(i + '0');
+						putchar(j + '0');
+						putchar(' ');
+						putchar(k + '0');
+						putchar(l + '0');
 					}
 					if (1 == 1)
 					{
@@ -44,6 +44,73 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
