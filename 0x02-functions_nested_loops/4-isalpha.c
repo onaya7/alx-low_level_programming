@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
   *_isalpha - program that checks for alphabetic characters
