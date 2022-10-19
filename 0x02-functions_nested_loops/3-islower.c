@@ -2,7 +2,7 @@
 
 /**
   * _islower - a program thaat checks for lowercase character.
-  *
+  * @object: number or an alphabet
   * Return: (0) on success .else error
   */
 
